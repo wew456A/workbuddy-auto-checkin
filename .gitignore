@@ -1,0 +1,53 @@
+# 构建产物
+build/
+dist/
+__pycache__/
+*.pyc
+
+# 运行时生成的用户数据（每人不同，不入库）
+checkin_records.json
+config.json
+checkin.log
+*.log
+@AutomationLog.txt
+
+# 备份文件
+*.bak
+*.bak-*
+*.backup
+main.py.backup
+
+# 调试与临时脚本
+debug_*.py
+debug_*.png
+test_*.py
+test_*.spec
+test_*.png
+shot_*.py
+probe_*.py
+capture_*.py
+window_shot.png
+current_screen.png
+full_screen.png
+ui_shot*.png
+ui_sync_done.png
+hero_shot.png
+
+# 历史遗留：图片识别方案的资源（已弃用）
+avatar.png
+buddy_*.png
+sign_in_button.png
+already_claimed.png
+
+# 旧版打包配置与清单（现行配置见 WorkBuddy自动签到.spec）
+build.spec
+build_clean.spec*
+main.spec
+test_*.spec
+app.manifest
+dpi_manifest.xml
+dpi_hook.py.backup
+build.bat
+
+# 参赛材料（私有，不公开）
+参赛材料/
